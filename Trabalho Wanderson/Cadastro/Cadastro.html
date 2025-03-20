@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <link rel="stylesheet" href="cadastro.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+</head>
+
+<body>
+    <div class="tela">
+        <div class="caixa-formulario">
+            <div class="titulo">Cadastro</div>
+            <form>
+                <div class="campo">
+                    <input class="entrada" type="text" id="nome" required autocomplete="off">
+                    <label class="rotulo" for="nome">Nome</label>
+                    <span class="bi bi-person"></span>
+                </div>
+                <div class="campo">
+                    <input class="entrada" type="email" id="email" required autocomplete="off">
+                    <label class="rotulo" for="email">E-mail</label>
+                    <span class="bi bi-envelope"></span>
+                </div>
+                <div class="campo">
+                    <input class="entrada" type="password" id="senha" required>
+                    <label class="rotulo" for="senha">Senha</label>
+                    <span class="mostrar-senha bi bi-eye"></span>
+                </div>
+                <div class="campo">
+                    <input class="entrada" type="telefone" id="telefone" required autocomplete="off">
+                    <label class="rotulo" for="telefone">Telefone</label>
+                    <span class="bi bi-telephone"></span>
+                </div>
+                <input type="submit" value="Cadastrar" id="botao-cadastro">
+            </form>
+            <div class="baixo">
+                <!-- <p>Já tem uma conta? <a href="\Login\Login.html">Faça login</a></p> -->
+                <p>Já tem uma conta? <a href="\Login\Login.html">Faça login</a></p>
+            </div>
+        </div>
+        <div class="fundo"></div>
+    </div>
+    <script src="Cadastro.js"></script>
+</body>
+
+</html>
